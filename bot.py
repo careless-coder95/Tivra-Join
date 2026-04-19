@@ -333,7 +333,7 @@ def make_handlers(bk: str, label: str):
                 update.effective_user.first_name,
                 update.effective_user.username or "",
             )
-            await update.message.reply_text("👋 Yeh bot private use ke liye hai.")
+            await update.message.reply_text("👋 Only admins can use it ")
             return
         s = load_settings(bk)
         await update.message.reply_text(
