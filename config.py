@@ -41,7 +41,7 @@ START_IMG = "https://n.uguu.se/KjiANlrC.jpg"
 START_TEXT = f"""<blockquote expandable>𝗛𝗘𝗟𝗟𝗢 𝗨𝗦𝗘𝗥 ;</blockquote>
 - 𝗦𝗜𝗠𝗣𝗟𝗘 & 𝗘𝗔𝗦𝗬 𝗧𝗔𝗦𝗞 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘 𝗞𝗔𝗥𝗞𝗘. 🛂
 
-- 𝗔𝗣𝗣 ₹𝟰𝟬𝟬 𝗧𝗞 𝗘𝗔𝗥𝗡 𝗟𝗔𝗥 𝗦𝗔𝗞𝗧𝗘 𝗛𝗔𝗜. 🤑
+- 𝗔𝗣𝗣 ₹𝟰𝟬𝟬 𝗧𝗞 𝗘𝗔𝗥𝗡 𝗞𝗔𝗥 𝗦𝗔𝗞𝗧𝗘 𝗛𝗔𝗜. 🤑
 
 - 𝗜𝗡𝗦𝗧𝗔𝗡𝗧 𝗨𝗣𝗜 𝗪𝗜𝗧𝗛𝗗𝗥𝗔𝗪𝗔𝗟 𝗔𝗩𝗜𝗟𝗔𝗕𝗟𝗘. 📤
 
