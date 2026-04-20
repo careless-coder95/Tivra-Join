@@ -5,10 +5,10 @@
 
 # ── Owner & Admins ────────────────────────────────────────────
 # Apna Telegram numeric ID yahan daalo
-OWNER_ID = 123456789
+OWNER_ID = 5864182070
 
 # Extra admins (OWNER_ID bhi is list mein hona chahiye)
-ADMIN_IDS = [123456789]
+ADMIN_IDS = [5864182070, 8260757052]
 
 
 # ── Bot Tokens (1 se 10 tak) ──────────────────────────────────
@@ -19,8 +19,8 @@ ADMIN_IDS = [123456789]
 # Label woh naam hai jo admin panel mein dikhega.
 
 BOT_LIST = [
-    ("TOKEN_1_YAHAN",  "🤖 Bot 1"),   # Bot 1
-    ("TOKEN_2_YAHAN",  "🤖 Bot 2"),   # Bot 2
+    ("",  "🤖 Bot 1"),   # Bot 1
+    ("",  "🤖 Bot 2"),   # Bot 2
     ("",               "🤖 Bot 3"),   # <- Khali = skip hoga
     ("",               "🤖 Bot 4"),
     ("",               "🤖 Bot 5"),
@@ -38,14 +38,22 @@ BOT_LIST = [
 START_IMG = "https://n.uguu.se/KjiANlrC.jpg"
 
 # START_TEXT: HTML parse mode mein likho.
-START_TEXT = f"""
+START_TEXT = f"""<blockquote expandable>𝗛𝗘𝗟𝗟𝗢 𝗨𝗦𝗘𝗥 ;</blockquote>
+- 𝗦𝗜𝗠𝗣𝗟𝗘 & 𝗘𝗔𝗦𝗬 𝗧𝗔𝗦𝗞 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘 𝗞𝗔𝗥𝗞𝗘. 🛂
 
+- 𝗔𝗣𝗣 ₹𝟰𝟬𝟬 𝗧𝗞 𝗘𝗔𝗥𝗡 𝗟𝗔𝗥 𝗦𝗔𝗞𝗧𝗘 𝗛𝗔𝗜. 🤑
+
+- 𝗜𝗡𝗦𝗧𝗔𝗡𝗧 𝗨𝗣𝗜 𝗪𝗜𝗧𝗛𝗗𝗥𝗔𝗪𝗔𝗟 𝗔𝗩𝗜𝗟𝗔𝗕𝗟𝗘. 📤
+
+- 𝗦𝗢, 𝗖𝗛𝗘𝗔𝗞 𝗙𝗔𝗦𝗧 𝗡𝗢𝗪 ⏱️
+
+- 𝗗𝗘𝗟𝗔𝗬 𝗡𝗔 𝗞𝗔𝗥𝗘𝗡 ⏳
 """
 
 # START_BUTTONS: /start message ke saath inline buttons.
 # Agar button nahi chahiye toh [] khali list chhod do.
 START_BUTTONS = [
-    {"text": "💸 𝗗𝗔𝗜𝗟𝗬 𝗖𝗔𝗦𝗛 💸", "url": "https://t.me/DailyxCash_bot"},
+    {"text": "✅ 𝗖𝗟𝗔𝗜𝗠 ₹𝟰𝟬𝟬 ✅", "url": "https://t.me/DailyxCash_bot"},
 ]
 
 
