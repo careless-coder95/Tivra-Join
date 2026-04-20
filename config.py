@@ -35,23 +35,17 @@ BOT_LIST = [
 # ── /start Message (sabko dikhega — user + admin dono ko) ────
 # START_IMG: Image ka file_id ya direct URL dono chalega.
 #            Agar image nahi chahiye toh khali string "" chhod do.
-START_IMG = ""
+START_IMG = "https://n.uguu.se/KjiANlrC.jpg"
 
 # START_TEXT: HTML parse mode mein likho.
 START_TEXT = f"""
-👋 <b>Hello! Welcome!</b>
 
-Yahan apna start message likho.
-Aap <b>bold</b>, <i>italic</i>, <a href="https://t.me">links</a> use kar sakte ho.
-
-🔔 Channel join karne ke liye niche button dabao.
 """
 
 # START_BUTTONS: /start message ke saath inline buttons.
 # Agar button nahi chahiye toh [] khali list chhod do.
 START_BUTTONS = [
-    {"text": "📢 Channel Join Karo", "url": "https://t.me/yourchannel"},
-    {"text": "💬 Group Join Karo",   "url": "https://t.me/yourgroup"},
+    {"text": "💸 𝗗𝗔𝗜𝗟𝗬 𝗖𝗔𝗦𝗛 💸", "url": "https://t.me/DailyxCash_bot"},
 ]
 
 
@@ -61,7 +55,6 @@ START_BUTTONS = [
 DEFAULT_WELCOME_TEXT = (
     "👋 <b>Welcome!</b>\n\n"
     "Aapki join request receive ho gayi!\n"
-    "Jald approve karenge ✅\n\n"
     "💡 <code>{name}</code> — user ka naam automatically replace hota hai"
 )
 
